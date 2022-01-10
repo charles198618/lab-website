@@ -4,20 +4,28 @@
   margin-left: 1000px;
   margin-top: 20px;
 }
-.Container1{
+.Container1 {
   margin-right: 10px;
 }
-.Container2{
+.Container2 {
   margin-right: 10px;
+  font-weight: bold;
 }
-.Container3{
-  color: chartreuse;
+.Container3 {
+  margin-top: 15px;
+}
+.Container3 a {
+  color: blue;
+  text-decoration: none;
+}
+.Container3 a:hover {
+  text-decoration: underline;
 }
 
 /**********************************************NAV-BAR**********************************************/
 .navBar {
   margin-left: 230px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .navContener {
   display: flex;
@@ -60,7 +68,7 @@
 }
 
 /***********************************************SECTION 1******************************************/
-section {
+.homepage {
   height: 450px;
   text-align: center;
   border: 1px solid rgb(249, 251, 253);
@@ -71,9 +79,72 @@ section {
   background-size: 70%;
   background-color: rgb(236, 244, 252);
 }
-section h3 {
+.homepage h3 {
   margin-top: 140px;
-  color:  rgb(49, 119, 151);
+  color: rgb(49, 119, 151);
   font-size: 4em;
   text-shadow: rgb(30, 164, 226);
+}
+/***********************************************SECTION 2*******************************************/
+.Container-row {
+  /* border: 1px solid black; */
+  margin: 50px;
+  display: flex;
+  margin-top: 40px;
+}
+.row1 {
+  padding: 10px;
+  margin-right: 60px;
+  margin-left: 20px;
+}
+.row2 {
+  margin-right: 60px;
+}
+.row2 h2 {
+  border: 1.5px solid blue;
+  padding-right: 250px;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  padding-top: 10px;
+}
+.row3 {
+  margin-left: 100px;
+}
+.row3 p {
+  color: rgb(29, 177, 177);
+  font-size: 2em;
+}
+
+/* *******************************SUPPORT************************************** */
+.container-home {
+  /* border: 1px solid black; */
+  margin:0;
+  display: flex;
+  padding: 20px;
+  background-color: rgb(224, 226, 228);
+}
+.home1 a {
+  margin-left: 30px;
+  text-decoration: none;
+}
+.home2{
+  margin-left: 10px;
+}
+
+.home3 a {
+  margin-left: 10px;
+  text-decoration: none;
+} 
+.support{
+  display: flex;
+}
+.container-support1{
+  margin: 30px;
+}
+.container-support2{
+  margin: 20px;
+  border: 1px solid black;
+  padding: 30px;
+  margin-left: 200px;
 }

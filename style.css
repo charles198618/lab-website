@@ -97,6 +97,11 @@
   margin-right: 60px;
   margin-left: 20px;
 }
+.row1 h1{
+  color: blue;
+  font-size: 2em;
+  font-weight: bold;
+}
 .row2 {
   margin-right: 60px;
 }
@@ -107,6 +112,7 @@
   border-right: none;
   border-bottom: none;
   padding-top: 10px;
+  color: blue;
 }
 .row3 {
   margin-left: 100px;
@@ -116,10 +122,10 @@
   font-size: 2em;
 }
 
-/* *******************************SUPPORT************************************** */
+/* ******************************************SUPPORT************************************** */
 .container-home {
   /* border: 1px solid black; */
-  margin:0;
+  margin: 0;
   display: flex;
   padding: 20px;
   background-color: rgb(224, 226, 228);
@@ -128,23 +134,89 @@
   margin-left: 30px;
   text-decoration: none;
 }
-.home2{
+.home2 {
   margin-left: 10px;
 }
 
 .home3 a {
   margin-left: 10px;
   text-decoration: none;
-} 
-.support{
+}
+.support {
   display: flex;
 }
-.container-support1{
+.container-support1 {
   margin: 30px;
+  margin-left: 50px;
 }
-.container-support2{
+.container-support2 {
   margin: 20px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  width: 18%;
   padding: 30px;
-  margin-left: 200px;
+  margin-left: 250px;
+  background-color: rgb(235, 229, 229);
+}
+.container-support2 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.container-support2 ul li {
+  width: 90px;
+  height: 40px;
+}
+.container-support2 ul li a {
+  text-decoration: none;
+  color: black;
+}
+.container-support2 ul li a:hover {
+  color: blue;
+  font-weight: bold;
+  font-size: 1    em;
+}
+.container-support2 h2 {
+  color: blue;
+}
+
+.support1 {
+  /* border: 1px solid black; */
+  margin: 10px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+.support1 span {
+  margin-top: 10px;
+}
+.support1 span a {
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  /* font-weight: bold; */
+  background-color: cadetblue;
+  color: white;
+}
+.support1 span a:hover {
+  background-color: blue;
+}
+.support2 {
+  margin: 10px;
+  font-weight: bold;
+}
+.support2 span {
+  margin-top: 10px;
+}
+.support2 span a {
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  background-color: cadetblue;
+  color: white;
+}
+.support2 span a:hover {
+  background-color: blue;
 }

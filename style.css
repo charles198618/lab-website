@@ -48,6 +48,7 @@
   text-decoration: none;
   display: block;
   font-size: 1.1em;
+  color: black;
 }
 
 .navBar ul li a:hover {
@@ -72,12 +73,13 @@
   height: 450px;
   text-align: center;
   border: 1px solid rgb(249, 251, 253);
-  background-image: url(img/micro2.jpg);
+  background-image: url(img/home.jpg);
+  width: 130%;
   background-repeat: no-repeat;
-  background-position: center;
-  margin-top: 20px;
-  background-size: 70%;
-  background-color: rgb(236, 244, 252);
+  /* background-position: center; */
+  /* margin-top: 20px; */
+  /* background-size: 70%; */
+  /* background-color: rgb(236, 244, 252); */
 }
 .homepage h3 {
   margin-top: 140px;
@@ -87,7 +89,6 @@
 }
 /***********************************************SECTION 2*******************************************/
 .Container-row {
-  /* border: 1px solid black; */
   margin: 50px;
   display: flex;
   margin-top: 40px;
@@ -97,7 +98,7 @@
   margin-right: 60px;
   margin-left: 20px;
 }
-.row1 h1{
+.row1 h1 {
   color: blue;
   font-size: 2em;
   font-weight: bold;
@@ -122,9 +123,8 @@
   font-size: 2em;
 }
 
-/* ******************************************SUPPORT************************************** */
+/* ***************************************PAGE  SUPPORT***************************************/
 .container-home {
-  /* border: 1px solid black; */
   margin: 0;
   display: flex;
   padding: 20px;
@@ -151,7 +151,6 @@
 }
 .container-support2 {
   margin: 20px;
-  /* border: 1px solid black; */
   width: 18%;
   padding: 30px;
   margin-left: 250px;
@@ -173,14 +172,13 @@
 .container-support2 ul li a:hover {
   color: blue;
   font-weight: bold;
-  font-size: 1    em;
+  font-size: 1 em;
 }
 .container-support2 h2 {
   color: blue;
 }
 
 .support1 {
-  /* border: 1px solid black; */
   margin: 10px;
   margin-bottom: 50px;
   font-weight: bold;
@@ -194,7 +192,6 @@
   padding: 10px;
   margin-bottom: 10px;
   font-size: 1.5em;
-  /* font-weight: bold; */
   background-color: cadetblue;
   color: white;
 }

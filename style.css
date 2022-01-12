@@ -265,7 +265,7 @@
 
 /* ******************************************FOOTER************************************** */
 
-.Container-section4{
+/* .Container-section4{
   padding: 0;
   margin: 0;
   text-decoration: none;
@@ -290,13 +290,36 @@
   color: black;
   font-size: 17px;
   
-}
+} */
 
 /* LAST CONTAINER */
-.footer {
+
+.footer{
+  border: 3px solid rgb(236, 229, 229);
+  padding-left: 600px;
+  margin-left: 100px;
+  display: flex;
+  text-transform: capitalize;
+
+  
+}
+
+.Container-A{
+  margin-right: 20px;
+}
+.Container-B{
+  margin-right: 20px;
+}
+.Container-C{
+  margin-right: 20px;
+}
+
+
+/* .footer {
   display: flex;
   margin-left: 100px;
   margin-top: 10px;
+  border: 1px solid black;
 }
 .Container-A {
   margin-right: 10px;
@@ -314,4 +337,4 @@ Container-B {
 }
 .Container-C a:hover {
   text-decoration: underline;
-}
+} */

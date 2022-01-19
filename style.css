@@ -120,7 +120,6 @@
   font-size: 2em;
 }
 
-/* *******************************************PAGE  SUPPORT***************************************/
 
 /***********************************************SECTION 3*******************************************/
 .Container-section3 {
@@ -132,25 +131,29 @@
   width: 50%;
 }
 .row4 h3 {
-  /*background-color: #026487;*/
-  padding: 10px;
-  margin-left: 20px;
+  font-size: 1.9em;
   color: white;
-  font-size: 1em;
-  position: relative;
-  letter-spacing: 1px;
+  margin-left: 130px;
 }
 .row4 p {
-  /*background-color: #026487;*/
-  padding: 10px;
-  margin-right: 60px;
-  margin-left: 20px;
+  font-size: 1.2em;
+  margin-left: 130px;
   color: white;
-  font-size: 1em;
-  position: relative;
-  left: 40px;
-  letter-spacing: 2px;
-  /*font-weight: bold;*/
+}
+.row4 a{
+  border:3px solid white;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  border-radius: 6px;
+  font-size: 1.2em;
+  margin-top: 150px;
+  margin-bottom: 200px;
+}
+.row4 a:hover{
+  background-color: white;
+  color: blue;
+  border: 3px solid black;
 }
 .row5 {
   background-color: rgb(247, 247, 248);
@@ -316,7 +319,7 @@
 /* *************************************** PAGE  ABOUT  ***********************************************/
 
 .container_about {
-  display: flex;
+  display:  flex;
 }
 .container_about p {
   background-color: rgb(55, 55, 155);
@@ -325,15 +328,14 @@
   font-size: 1.5em;
   color: white;
 }
-.test {
+.container_about1 {
   width: 100%;
 }
-.container_about img {
+ .container_about img {
   margin-top: 23px;
 }
 
-/* section2 about */
-.all {
+.section_about {
   border: 1px solid white;
   margin: 100px;
 }
@@ -350,7 +352,7 @@
 }
 .container_about_section p {
   font-size: 1.2em;
-}
+} 
 .separation {
   margin: 5px;
   margin-left: 300px;
@@ -425,7 +427,7 @@
   width: 18%;
   padding: 30px;
   height: 1000%;
-  margin-left: 250px;
+  margin-left: 200px;
   background-color: rgb(235, 229, 229);
 }
 .container_partners1 ul {
@@ -452,14 +454,24 @@
 
 /* ****************************************  CONTACT US     ********************************* */
 
-
-
 .contact1{
   display: flex;
 }
 #containers {
   display: flex;
 }
+
+.container_h_p{
+  margin-left: 60px;
+}
+.container_h_p h2{
+  font-size: 1.8em;
+  color: blue;
+}
+.container_h_p p{
+  font-size: 1.2em;
+}
+
 .container {
   margin-top: 50px;
 }
@@ -491,7 +503,7 @@ form {
 }
 .telephone input {
   height: 3.5em;
-  margin-left: 40px;
+  margin-left: 52px;
 }
 
 .name {
@@ -511,6 +523,7 @@ form {
 .area textarea {
   margin-left: 40px;
 }
+
 .area button {
   margin-top: 20px;
   margin-bottom: 60px;
@@ -518,7 +531,11 @@ form {
   font-weight: bold;
   color: white;
 }
-
+#btn:hover{
+  color: white;
+  font-weight: bold;
+  border: 2px solid blue;
+}
 /* ******************************************  NWES  *************************************/
 .news {
   display: flex;
@@ -535,4 +552,9 @@ form {
 }
 .container_news p {
   font-size: 1.5em;
+}
+
+/*****************************************  MEDIA QUERY REPONSIVE ******************************/
+@media screen {
+  
 }

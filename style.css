@@ -27,7 +27,7 @@
   margin-left: 230px;
   margin-top: 30px;
 }
-.navContener {
+.navContainer {
   display: flex;
 }
 .navBar ul {
@@ -319,7 +319,7 @@
 /* *************************************** PAGE  ABOUT  ***********************************************/
 
 .container_about {
-  display: flex;
+  display:  flex;
 }
 .container_about p {
   background-color: rgb(55, 55, 155);
@@ -328,15 +328,14 @@
   font-size: 1.5em;
   color: white;
 }
-.test {
+.container_about1 {
   width: 100%;
 }
-.container_about img {
+ .container_about img {
   margin-top: 23px;
 }
 
-/* section2 about */
-.all {
+.section_about {
   border: 1px solid white;
   margin: 100px;
 }
@@ -353,7 +352,7 @@
 }
 .container_about_section p {
   font-size: 1.2em;
-}
+} 
 .separation {
   margin: 5px;
   margin-left: 300px;
@@ -406,24 +405,24 @@
 }
 
 /* *************************************   PAGE PARTENERS  ********************************************/
-.parteners {
+.partners {
   display: flex;
   margin: 20px;
   margin-left: 80px;
 }
-.parteners h1 {
+.partners h1 {
   font-size: 2.5em;
   color: blue;
 }
-.container_parteners {
+.container_partners {
   display: flex;
 }
-.container_parteners p {
+.container_partners p {
   margin-right: 50px;
   font-size: 1.1em;
 }
 
-.container_parteners1 {
+.container_partners1 {
   margin: 20px;
   width: 18%;
   padding: 30px;
@@ -431,25 +430,25 @@
   margin-left: 200px;
   background-color: rgb(235, 229, 229);
 }
-.container_parteners1 ul {
+.container_partners1 ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.container_parteners1 ul li {
+.container_partners1 ul li {
   width: 90px;
   height: 40px;
 }
-.container_parteners1 ul li a {
+.container_partners1 ul li a {
   text-decoration: none;
   color: black;
 }
-.container_parteners1 ul li a:hover {
+.container_partners1 ul li a:hover {
   color: blue;
   font-weight: bold;
   font-size: 1 em;
 }
-.container_parteners1 h2 {
+.container_partners1 h2 {
   color: blue;
 }
 
@@ -458,19 +457,20 @@
 .contact1{
   display: flex;
 }
-#conteners {
+#containers {
   display: flex;
 }
-.contenus{
-  margin-left: 65px;
+.container_h_p{
+  margin-left: 60px;
 }
-.contenus h2 {
-  font-size: 1.9em;
+.container_h_p h2{
+  font-size: 1.8em;
+  color: blue;
 }
-.contenus p {
+.container_h_p p{
   font-size: 1.2em;
 }
-.contener {
+.container {
   margin-top: 50px;
 }
 form {
@@ -478,7 +478,7 @@ form {
   margin-bottom: 50px;
   background-color: rgb(236, 230, 222);
 }
-.contenerinput {
+.containerinput {
   margin: 10px;
   flex-wrap: wrap;
   margin-left: 50px;
@@ -507,7 +507,7 @@ form {
 .name {
   margin-top: 20px;
 }
-.contener_input {
+.container_input {
   margin-left: 10px;
 }
 .Email {

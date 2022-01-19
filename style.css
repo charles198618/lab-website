@@ -551,3 +551,8 @@ form {
 .container_news p {
   font-size: 1.5em;
 }
+
+/*****************************************  MEDIA QUERY REPONSIVE ******************************/
+@media screen {
+  
+}

@@ -428,7 +428,7 @@
   width: 18%;
   padding: 30px;
   height: 1000%;
-  margin-left: 250px;
+  margin-left: 200px;
   background-color: rgb(235, 229, 229);
 }
 .container_parteners1 ul {
@@ -455,13 +455,20 @@
 
 /* ****************************************  CONTACT US     ********************************* */
 
-
-
 .contact1{
   display: flex;
 }
 #conteners {
   display: flex;
+}
+.contenus{
+  margin-left: 65px;
+}
+.contenus h2 {
+  font-size: 1.9em;
+}
+.contenus p {
+  font-size: 1.2em;
 }
 .contener {
   margin-top: 50px;
@@ -494,7 +501,7 @@ form {
 }
 .telephone input {
   height: 3.5em;
-  margin-left: 40px;
+  margin-left: 52px;
 }
 
 .name {
@@ -514,6 +521,7 @@ form {
 .area textarea {
   margin-left: 40px;
 }
+
 .area button {
   margin-top: 20px;
   margin-bottom: 60px;
@@ -521,7 +529,11 @@ form {
   font-weight: bold;
   color: white;
 }
-
+#btn:hover{
+  color: white;
+  font-weight: bold;
+  border: 2px solid blue;
+}
 /* ******************************************  NWES  *************************************/
 .news {
   display: flex;

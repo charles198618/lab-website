@@ -460,6 +460,7 @@
 #containers {
   display: flex;
 }
+
 .container_h_p{
   margin-left: 60px;
 }
@@ -470,6 +471,7 @@
 .container_h_p p{
   font-size: 1.2em;
 }
+
 .container {
   margin-top: 50px;
 }
